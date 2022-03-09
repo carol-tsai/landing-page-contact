@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Landing Page with Conact Form</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  </head>
+
+  <body>
+        <header id="header">
+            <h1>Welcome to my Website!</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#aboutme">About Me</a>
+                    </li>
+                    <li>
+                        <a href="profile">Profiile Picture</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="aboutme">
+            <h2 class="heading">About Me</h2>
+            <p>
+              Hello, my  name is Carol Tsai. I was born and raised in Mission  Viejo, California but have
+              been living in Univercity City, Philadelphia for the last 8 mnonths. I studied Environmental
+              Sciences at UC Berkeley and graduated in 2020. After that I worked as a GIS contractor for
+              Apple Maps for over a year. Outside of work, my passion is college ministry. I currently help
+              mentor college students at UPenn through my church. I decided to take this bootcamp in order to
+              find job that is more compatible with co-vocational ministry.
+            </p>
+        </section>
+
+        <section id="profile">
+            <h2 class="heading">Profile Picture</h2>
+            <img src="./assets/images/headshot.jpeg" alt="profile picture"/>
+        </section>
+
+        <section id="contact">
+            <h2 class="heading">Contact Info</h2>
+
+            <ul>
+
+                <li>Email:
+                <a href="mailto:carol.tsai0224@gmail.com">carol.tsai0224@gmail.com</a>
+                </li>
+
+                <li>Github:
+                <a href="https://github.com/carol-tsai">carol-tsai</a>
+                </li>
+
+            </ul>
+
+            <h3 class="heading">Connect with me</h3>
+            <form>
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+            
+                <input type="submit" value="Submit">
+            
+            </form>
+        </section>
+  </body>
